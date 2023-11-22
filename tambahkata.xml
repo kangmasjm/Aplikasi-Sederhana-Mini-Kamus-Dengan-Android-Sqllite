@@ -1,0 +1,52 @@
+<?xml version=”1.0″ encoding=”utf-8″?>
+<LinearLayout xmlns:android=”http://schemas.android.com/apk/res/android&#8221;
+android:layout_width=”fill_parent”
+android:layout_height=”fill_parent”
+android:orientation=”vertical” >
+<TextView
+android:layout_width=”fill_parent”
+android:layout_height=”wrap_content”
+android:text = “Kamus Inggris Indonesia Jerman” />
+<TextView
+android:id=”@+id/TextView01″
+android:layout_width=”wrap_content”
+android:layout_height=”wrap_content”
+android:text = “Inggris :” >
+</TextView>
+<EditText
+android:id=”@+id/txtInggris”
+android:layout_width=”fill_parent”
+android:layout_height=”wrap_content”
+android:text=”” >
+</EditText>
+<TextView
+android:id=”@+id/TextView03″
+android:layout_width=”wrap_content”
+android:layout_height=”wrap_content”
+android:text = “Indonesia :” >
+</TextView>
+<EditText
+android:id=”@+id/txtIndonesia”
+android:layout_width=”fill_parent”
+android:layout_height=”wrap_content”
+android:text=”” >
+</EditText>
+<TextView
+android:id=”@+id/textView1″
+android:layout_width=”wrap_content”
+android:layout_height=”wrap_content”
+android:text = “Jerman” >
+</TextView>
+<EditText
+android:id=”@+id/txtJerman”
+android:layout_width=”fill_parent”
+android:layout_height=”wrap_content” >
+</EditText>
+<Button
+android:id=”@+id/btnTerjemah”
+android:layout_width=”fill_parent”
+android:layout_height=”wrap_content”
+android:onClick=”saveData”
+android:text = “Save Data” >
+</Button>
+</LinearLayout>
